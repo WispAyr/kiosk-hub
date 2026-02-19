@@ -1,0 +1,20 @@
+{
+  "name": "skynet-kiosk-hub",
+  "version": "1.0.0",
+  "description": "Skynet Kiosk Management Hub — WebSocket server + REST API for managing remote kiosk agents",
+  "type": "module",
+  "main": "hub.js",
+  "scripts": {
+    "start": "node hub.js",
+    "dev": "node --watch hub.js"
+  },
+  "dependencies": {
+    "ws": "^8.18.0",
+    "express": "^4.21.0",
+    "cors": "^2.8.5",
+    "uuid": "^10.0.0"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
